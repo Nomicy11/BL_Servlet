@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2dfed3a5-8f12-4158-b156-97d36b6a54db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../CG_Calculator/.idea/CG_Calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-Feb assign/22-Feb assign.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-Feb assignment/24-Feb assignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-Feb assign/25-Feb assign.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login-Form/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login-Form/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login-Form/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login-Form/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login-Form/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Login-Form/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Review/Review.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2tcHYpDUhlvDHqOGXmcn1fEkLf0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.28-Feb-assign [clean].executor": "Run",
+    "Maven.28-Feb-assign [compile].executor": "Run",
+    "Maven.28-Feb-assign [install].executor": "Run",
+    "Maven.28-Feb-assign [package].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Smart Tomcat.TomCat-9.executor": "Run",
+    "Smart Tomcat.Tomcat Local.executor": "Run",
+    "Smart Tomcat.Tomcat: 28-Feb-assign.executor": "Run",
+    "git-widget-placeholder": "JSON-Data-Handling",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/nomic/OneDrive/Desktop/Documents/CapgeminiTraining/Practice-Problem/28-Feb assign",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
+  }
+}]]></component>
+  <component name="RunManager" selected="Smart Tomcat.TomCat-9">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="28-Feb assign" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="28-Feb assign" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TomCat-9" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\Users\nomic\.SmartTomcat\28-Feb assign\28-Feb-assign" />
+      <option name="contextPath" value="/28-Feb-assign" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.100 (3)" />
+          <option name="path" value="$PROJECT_DIR$/../apache-tomcat-9.0.100" />
+          <option name="version" value="9.0.100.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="28-Feb-assign" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat Local" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\Users\nomic\.SmartTomcat\28-Feb assign\28-Feb-assign" />
+      <option name="contextPath" value="/28-Feb-assign" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.100" />
+          <option name="path" value="$PROJECT_DIR$/../apache-tomcat-9.0.100" />
+          <option name="version" value="9.0.100.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="28-Feb-assign" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Smart Tomcat.Tomcat Local" />
+      <item itemvalue="Smart Tomcat.TomCat-9" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2dfed3a5-8f12-4158-b156-97d36b6a54db" name="Changes" comment="" />
+      <created>1740644496276</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740644496276</updated>
+    </task>
+    <servers />
+  </component>
+</project>
