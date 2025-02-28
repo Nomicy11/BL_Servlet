@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+        }
+
+        /* Card Container */
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            width: 350px;
+            text-align: center;
+            animation: fadeIn 0.8s ease-in-out;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Header Styles */
+        .header {
+            font-size: 22px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #444;
+        }
+
+        /* Input Fields */
+        input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+
+        input:focus {
+            border-color: #667eea;
+            outline: none;
+        }
+
+        /* Button */
+        button {
+            width: 100%;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        button:hover {
+            background: linear-gradient(135deg, #764ba2, #667eea);
+        }
+
+        /* Messages */
+        .error {
+            color: #ff4d4d;
+            background: #ffe6e6;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            display: none;
+        }
+
+        /* Register Link */
+        .register-link {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        .register-link a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .register-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        function displayError() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const error = urlParams.get('error');
+
+            if (error) {
+                document.getElementById("error").innerText = error;
+                document.getElementById("error").style.display = "block";
+            }
+        }
+    </script>
+</head>
+<body onload="displayError()">
+
+<div class="container">
+    <!-- New User Login Header -->
+    <div class="header">User Login</div>
+
+    <h2>Login</h2>
+
+    <p id="error" class="error"></p>
+
+    <form action="LoginServlet" method="post">
+        <input type="text" id="user" name="user" placeholder="Username" required>
+        <input type="password" id="pwd" name="pwd" placeholder="Password" required>
+        <button type="submit">Login</button>
+    </form>
+
+    <!-- New user? Register link -->
+    <p class="register-link">New user? <a href="register.html">Register</a></p>
+</div>
+
+</body>
+</html>
